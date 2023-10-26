@@ -2,9 +2,9 @@ name: Lab 7
 
 on:
   push:
-    branches: [master, main]
+    branches: [lab7, main]
   pull_request:
-    branches: [master, main]
+    branches: [lab7, main]
 
 jobs:
   build:
