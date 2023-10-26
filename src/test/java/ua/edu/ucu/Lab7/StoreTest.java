@@ -29,14 +29,6 @@ public class StoreTest {
         Flower testFlowerOne = new Flower(lengthOne, FlowerColor.BLUE, priceOne);
         Flower testFlowerTwo = new Flower(lengthOne, FlowerColor.RED, priceTwo);
         Flower testFlowerThree = new Flower(lengthTwo, FlowerColor.RED, priceTwo);
-        FlowerPack packOne = new FlowerPack(flowerOne, quantityOne);
-        FlowerPack packTwo = new FlowerPack(flowerTwo, quantityTwo);
-        FlowerBucket bucket = new FlowerBucket();
-        FlowerPack testPackOne = new FlowerPack(testFlowerOne, quantityOne);
-        FlowerPack testPackTwo = new FlowerPack(testFlowerTwo, quantityTwo);
-        FlowerBucket testBucketOne = new FlowerBucket();
-        FlowerPack testPackThree = new FlowerPack(testFlowerThree, quantityTwo);
-        FlowerBucket testBucketTwo = new FlowerBucket();
         Store store = new Store();
         bucket.addFlowers(packOne);
         bucket.addFlowers(packTwo);
