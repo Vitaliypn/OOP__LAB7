@@ -26,4 +26,4 @@ jobs:
           FILTER_REGEX_INCLUDE: .*Lab7/src/main/.*
       - name: Test with Maven
         run: mvn --batch-mode --update-snapshots package
-        working-directory: ./Lab7
+        working-directory: ./src
