@@ -26,4 +26,4 @@ jobs:
           FILTER_REGEX_INCLUDE: .*src/main/.*
       - name: Test with Maven
         run: mvn --batch-mode --update-snapshots package
-        working-directory: /src
+        working-directory: src
