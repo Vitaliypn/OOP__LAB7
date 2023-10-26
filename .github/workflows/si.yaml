@@ -20,10 +20,10 @@ jobs:
       - name: Lint Code Base
         uses: github/super-linter/slim@v4
         env:
-          DEFAULT_BRANCH: master
+          DEFAULT_BRANCH: lab7
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           JAVA_FILE_NAME: checkstyle.xml
-          FILTER_REGEX_INCLUDE: .*Lab7/src/main/.*
+          FILTER_REGEX_INCLUDE: .*src/main/.*
       - name: Test with Maven
         run: mvn --batch-mode --update-snapshots package
-        working-directory: ./src
+        working-directory: /src
